@@ -9,6 +9,7 @@ import {useForm} from "./hooks/UseForm";
 import {GrFormPrevious, GrFormNext} from "react-icons/Gr"
 import  {FiSend} from 'react-icons/fi'
 import './App.css';
+import Steps from "./components/Steps";
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 
       </div> 
       <div className="form-container">
-        <p>etapas</p>
+        <Steps currentStep={currentStep} />
           <form onSubmit={(e) => changeStep(currentStep + 1, e)}>
             <div className="inputs-container">{currentComponent}</div>
             <div className="actions">
