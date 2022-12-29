@@ -1,12 +1,21 @@
-.App{
+.app {
+  padding: 2rem;
+}
+
+.header {
   text-align: center;
-  margin: 10vh;
+  margin-bottom: 2rem;
 }
 
-.App h1{
-  padding: 1.2vh;
+.header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
-.App p{
-  padding: 1.2vh;
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

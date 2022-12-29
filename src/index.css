@@ -2,12 +2,14 @@
   padding: 0;
   margin: 0;
   font-family: "Barlow", sans-serif;
-  color: #222;
+  color: #333;
+  box-sizing: border-box;
 }
 
-body,
-html {
-  min-height: 100vh;
-  height: 100%;
-  background-color: #eeeeee;
+P {
+  color: #777;
+}
+
+body {
+  background-color: #f9fafc;
 }
